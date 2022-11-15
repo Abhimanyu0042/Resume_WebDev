@@ -12,7 +12,7 @@ body{
     flex-wrap: wrap;
     height: 100%;
     justify-content: center;
-    background-image: url(Images/1445066_3574.jpg);  
+    /* background-image: url(Images/1445066_3574.jpg);   */
 }
 i{
     color:rgb(28, 146, 152);
