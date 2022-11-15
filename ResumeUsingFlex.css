@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bahnschrift;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    background-image: url(Images/1445066_3574.jpg);  
+}
+i{
+    color:rgb(28, 146, 152);
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    background-color:rgb(28, 146, 152);
+}
+
+.Left_column{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    background-color: white;
+}
+
+.left_column_whole_desc{
+    padding: 0.2rem;
+    color: grey;
+}
+
+.image_box{
+    position: relative;
+    margin-bottom: 1rem;
+}
+.My_Pic{
+    width: 100%;
+    
+}
+
+h1{
+    position:absolute;
+    bottom:7%;
+    left: 20px;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+.Left_desc{
+    margin-bottom: 1rem;
+}
+
+.Left_desc ul>li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.4rem;
+}
+.Left_desc ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Left_desc p{
+    padding-left: 1rem;
+}
+
+.skills{
+    margin-top: 1rem;
+    padding: .4rem;
+}
+
+.skills h3{
+    padding-bottom: 1rem;
+}
+
+.progress{
+    width: 100%;
+    background-color: rgb(172, 172, 172);
+    border-radius: 15px;
+}
+.progress-bar{
+    background-color:rgb(28, 146, 152);
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.skills p{
+    padding: 0.7rem 0rem;
+}
+
+.Right_column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work_experience{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.work-heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.5rem 0rem;
+}
+
+.work-heading h2{
+    margin-left: 1rem;
+    font-size: xx-large;
+    color: gray;
+}
+
+.work-heading i{
+    font-size: xx-large;
+}
+.whole-content{
+    padding: 0rem 1rem;
+}
+.work-date-desc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.work-name{
+    color: gray;
+    padding: 1rem 0rem;
+}
+.work-date-desc li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: .8rem;
+}
+
+.work-date-desc li>p{
+    color: rgb(28, 146, 152);
+    margin-left: 1rem;
+}
+
+.work-expereince-content{
+    padding-bottom: 0.8rem;
+}
+
+@media only screen and (min-width: 940px){
+    .container{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+        background-color: rgb(240, 240, 240);
+    }
+    .Left_column{
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: 15px;
+        background-color: white;
+    }
+    .Right_column{
+        width: 68%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .work_experience{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 2rem 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+    }
+
+    
+}
